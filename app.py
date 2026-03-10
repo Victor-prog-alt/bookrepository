@@ -31,7 +31,7 @@ st.write("Цена:", book ["price"])
 st.write("------")
 #
 #
-Търсене по автор
+# Търсене по автор
 #
 st.header(" Търсене по автор")
 search_author = st.text_input("Въведи име на автор")
