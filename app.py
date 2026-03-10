@@ -2,7 +2,7 @@ import streamlit as st
 st.title("Приложение")
 # Създаваме масив (списък), ако още не съществува
 if "books" not in st.session_state:
-st.session_state.books = []
+    st.session_state.books = []
 #
 # + Добавяне на книга
 #
