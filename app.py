@@ -41,5 +41,5 @@ for book in st.session_state.books:
      if book["author"] == search_author:
          st.write(book)
          found = True
-if found == == False:
+if found == False:
     st.write("Няма намерени книги от този автор.")
